@@ -6,12 +6,6 @@
             "use": "@vercel/python"
         }
     ],
-    "functions": {
-        "main.py": {
-            "maxDuration": 10,
-            "memory": 512
-        }
-    },
     "routes": [
         {
             "src": "/(.*)",
